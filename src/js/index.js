@@ -29,8 +29,10 @@ function onFormSubmit(e) {
   refs.buttonLoad.classList.add('ishidden');
 
   searchName = e.currentTarget.elements.searchQuery.value.trim();
-  if (searchName === 0) {
-    return;
+  if (searchName === '') {
+    return Notiflix.Notify.info(
+      "We're sorry, but you've reached the end of search results."
+    );
   } else {
     clearGalleryList();
     currentPage = 1;
