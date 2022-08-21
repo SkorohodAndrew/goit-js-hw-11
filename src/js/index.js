@@ -87,7 +87,7 @@ function filterFetchResult(fetchResult) {
 function smoothScrollToBottomPage() {
   const galleryRect = refs.gallery.getBoundingClientRect();
   window.scrollBy({
-    top: galleryRect.height,
+    top: galleryRect.cardHeight * 2,
     behavior: 'smooth',
   });
 }
