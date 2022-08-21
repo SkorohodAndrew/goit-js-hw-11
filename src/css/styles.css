@@ -7,7 +7,7 @@
       Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: rgb(201, 221, 221);
+    background-color: white;
     color: #212121;
     line-height: 1.5;
   }
@@ -25,7 +25,7 @@
   }
   
   .search-form input{
-    font-size: 25px;
+    font-size: 15px;
     padding: 5px 10px;
   }
   .wrapper{
@@ -50,7 +50,6 @@
   .photo-card{
     margin-right: 20px;
     margin-bottom: 20px;
-    box-shadow: -4px 6px 37px 3px rgba(74, 152, 158, 1);
     border-radius: 4px;
     
   }
@@ -92,7 +91,7 @@
     border: transparent;
     border-radius: 4px;
     background-color: transparent;
-    box-shadow: -4px 6px 37px 3px rgba(74, 152, 158, 1);
+    background-color: red;
     cursor: pointer;
   }
   .load-more:hover{
